@@ -5,7 +5,13 @@
 </template>
 
 <script>
-	export default {}
+	export default {
+	  props: {
+	    seller: {
+	      type: Object
+	    }
+	  }
+	}
 </script>
 
 <style lang="stylus">
