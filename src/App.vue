@@ -2,7 +2,7 @@
 	<div id="app">
 		<v-header :seller="seller">i am a header</v-header>
 		<div class="tab border-1px">
-			<router-link :to="{name: 'word'}">
+			<router-link :to="{name: 'foods'}">
 				商品
 			</router-link>
 			<router-link to="/hello">
